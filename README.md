@@ -1,11 +1,11 @@
 
-# 🛠️ Indeed Cyber Security Job Scraper
+# Indeed Cyber Security Job Scraper
 
 This Python project automates the process of scraping **Cyber Security Analyst** job listings from [Indeed.com](https://indeed.com), extracting relevant data, categorizing it by posting age, and saving it into a structured Excel file for further analysis or tracking.
 
 ---
 
-## 🔍 What It Does
+## What It Does
 
 - Searches Indeed.com for "Cyber Security Analyst" roles
 - Extracts:
@@ -24,7 +24,7 @@ This Python project automates the process of scraping **Cyber Security Analyst**
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - `requests` – to fetch web pages
 - `BeautifulSoup` – to parse HTML content
@@ -33,7 +33,7 @@ This Python project automates the process of scraping **Cyber Security Analyst**
 
 ---
 
-## 🧰 How It Automates the Process
+## How It Automates the Process
 
 1. **Search Query Automation**  
    Sends search requests with parameters like job title, location, and sorting preference.
@@ -52,7 +52,7 @@ This Python project automates the process of scraping **Cyber Security Analyst**
 
 ---
 
-## 📦 Output
+## Output
 
 Saved file: `Cyber_Security_Analyst_Jobs_Indeed.xlsx`
 
@@ -66,7 +66,7 @@ Each row in the spreadsheet contains:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 pip install requests beautifulsoup4 pandas openpyxl
@@ -75,7 +75,7 @@ python scrape_indeed_cyber_jobs.py
 
 ---
 
-## 📈 Use Case
+## Use Case
 
 This tool is great for:
 - Job seekers tracking fresh job posts
@@ -84,6 +84,6 @@ This tool is great for:
 
 ---
 
-## 🤝 Author
+## Author
 
 **Edrion Ashirvadam** – Cybersecurity Analyst | Threat Researcher
